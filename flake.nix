@@ -12,7 +12,7 @@
       }: {
         devShells.default = with pkgs;
           mkShell {
-            nativeBuildInputs = [alejandra nodejs treefmt pre-commit rustc clippy rustfmt cargo rust-analyzer pkg-config];
+            nativeBuildInputs = [alejandra treefmt pre-commit rustc clippy rustfmt cargo rust-analyzer pkg-config];
           };
         packages.example = with pkgs;
           rustPlatform.buildRustPackage {
