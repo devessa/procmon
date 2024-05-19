@@ -29,7 +29,7 @@
             };
 
             meta = with lib; {
-              description = "monitor for any changes in a filesystem and automatically restart - perfect for development";
+              description = "monitor for any changes in a filesystem and automatically restart if changes are found  - perfect for development";
               license = licenses.mit;
               platforms = platforms.linux;
             };
